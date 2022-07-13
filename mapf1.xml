@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ GtkSourceView color scheme by Ali Sezişli
+ Based on the colors of Mercedes-AMG Petronas Formula 1 Team
+ I don't use gedit so often for coding. Therefore almost every color came from Cobalt theme by Will Farrington. Thank you Will.
+ However, I may change colors in the future.
+
+ More information about GtkSourceView: https://wiki.gnome.org/Projects/GtkSourceView/
+
+ Find me at alisezisli.com.tr, gnuadm.in, gereklidetay.com
+ 
+ Add Turkish GP to calendar!
+
+ Much respect and love to Sir Lewis Hamilton 44, Valtteri Bottas 77, George Russell 63 and many brave people at the team.
+
+-->
+
+<style-scheme id="mapf1" _name="MAP F1" version="1.0">
+  <author>Ali Sezisli</author>
+  <_description>Mercedes-AMG Petronas Formula 1 Team color scheme</_description>
+
+  <!-- Colors -->
+  <color name="black"                       value="#000000"/>
+  <color name="dark_gray"                   value="#1f1f1f"/>
+  <color name="light_gray"                  value="#676767"/>
+  <color name="silver"                      value="#ced1d2"/>
+  <color name="petronas_green"              value="#009a93"/>
+  <color name="petronas_light_green"        value="#2fffff"/>
+  <color name="white"                       value="#ffffff"/>
+  <color name="bottas_silver"               value="#777777"/>
+  <color name="russell_silver"              value="#636363"/>
+  <color name="hamilton_gray"               value="#444444"/>
+  <color name="faded_yellow"                value="#ffee80"/>
+  <color name="bright_orange"               value="#ff9d00"/>
+  <color name="faded_orange"                value="#ffb054"/>
+  <color name="nail_polish_pink"            value="#ff0044"/>
+  <color name="neon_yellow"                 value="#ffdd00"/>
+  <color name="sky_blue"                    value="#0088ff"/>
+  <color name="teal_blue"                   value="#80ffbb"/>
+  <color name="light_blue"                  value="#0065bf"/>
+  <color name="medium_blue"                 value="#003b70"/>
+  <color name="dark_blue"                   value="#001b33"/>
+  <color name="black_blue"                  value="#000d1a"/>
+  <color name="pale_grey"                   value="#eeeeee"/>
+  <color name="steel_grey"                  value="#333333"/>
+  <color name="spring_green"                value="#3ad900"/>
+  <color name="sea_green"                   value="#00BF8C"/>
+  <color name="dark_red"                    value="#990000"/>
+  <color name="steelblue3"                  value="#4f94cd"/>
+
+  <color name="dark_medium_blue_blend"      value="#00213F"/>
+
+  <!-- Global Settings -->
+
+  <style name="text"                        foreground="petronas_light_green" background="black"/>
+  <style name="selection"                   foreground="white" background="hamilton_gray"/>
+  <style name="cursor"                      foreground="white"/>
+  <style name="current-line"                background="dark_gray"/>
+  <style name="line-numbers"                foreground="silver" background="black"/>
+  <style name="draw-spaces"                 foreground="bottas_silver"/>
+  <style name="right-margin"                foreground="light_gray" background="light_gray"/>
+  <style name="background-pattern"          background="dark_medium_blue_blend"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               background="steelblue3"/>
+  <style name="bracket-mismatch"            background="dark_red"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="white" background="sea_green"/>
+
+  <!-- Bookmarks -->
+  <style name="bookmark"                    background="white"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="petronas_green" italic="true"/>
+  <style name="def:shebang"                 foreground="petronas_green" italic="true"/>
+  <style name="def:doc-comment-element"     bold="true"/>
+
+  <!-- Constants and Variables-->
+  <style name="def:constant"                foreground="faded_yellow"/>
+  <style name="def:string"                  foreground="spring_green"/>
+  <style name="def:special-char"            foreground="light_gray"/>
+  <style name="def:special-constant"        foreground="nail_polish_pink" bold="true"/>
+  <style name="def:number"                  foreground="nail_polish_pink"/>
+  <style name="def:floating-point"          foreground="nail_polish_pink"/>
+  <style name="def:boolean"                 foreground="nail_polish_pink"/>
+  <style name="def:keyword"                 foreground="bright_orange" bold="true"/>
+  <style name="def:builtin"                 foreground="bright_orange" bold="true"/>
+  <style name="def:variable"                foreground="light_gray"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="light_gray"/>
+  <style name="def:function"                use-style="def:identifier"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="bright_orange"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="teal_blue"/>
+
+  <!-- Markup -->
+  <style name="def:emphasis"                bold="true"/>
+  <style name="def:strong-emphasis"         foreground="bright_orange"/>
+  <style name="def:inline-code"             foreground="light_gray"/>
+  <style name="def:insertion"               underline="single"/>
+  <style name="def:deletion"                strikethrough="true"/>
+  <style name="def:link-text"               foreground="sky_blue" italic="true"/>
+  <style name="def:link-symbol"             foreground="sky_blue" italic="true"/>
+  <style name="def:link-destination"        underline="single"/>
+  <style name="def:heading"                 foreground="teal_blue"/>
+  <style name="def:thematic-break"          foreground="teal_blue"/>
+  <style name="def:preformatted-section"    foreground="light_gray"/>
+  <style name="def:list-marker"             foreground="bright_orange"/>
+
+  <!-- Others -->
+  <style name="def:error"                   foreground="white" background="dark_red" bold="true"/>
+  <style name="def:warning"                 foreground="white" background="nail_polish_pink"/>
+  <style name="def:note"                    foreground="neon_yellow" bold="true"/>
+  <style name="def:net-address"             foreground="teal_blue" italic="false" underline="single"/>
+  <style name="def:preprocessor"            foreground="light_gray"/>
+  <style name="def:underlined"              underline="single"/>
+
+  <!-- C Styles -->
+  <style name="c:preprocessor"              foreground="teal_blue" bold="true"/>
+  <style name="c:included-file"             foreground="spring_green"/>
+  <style name="c:common-defines"            foreground="sky_blue" bold="true"/>
+
+  <!-- Diff Styles -->
+  <style name="diff:ignore"                 foreground="bottas_silver"/>
+  <style name="diff:added-line"             foreground="faded_yellow"/>
+  <style name="diff:removed-line"           foreground="spring_green"/>
+  <style name="diff:changed-line"           foreground="bright_orange"/>
+  <style name="diff:diff-file"              foreground="sky_blue" bold="true"/>
+  <style name="diff:location"               foreground="sky_blue"/>
+  <style name="diff:special-case"           foreground="nail_polish_pink" bold="true"/>
+
+  <!-- Ruby Styles -->
+  <style name="ruby:module-handler"         foreground="teal_blue"/>
+  <style name="ruby:symbol"                 foreground="nail_polish_pink"/>
+  <style name="ruby:regex"                  foreground="teal_blue"/>
+
+  <!-- SH Styles -->
+  <style name="sh:function"                 foreground="neon_yellow"/>
+
+  <!-- XML Styles -->
+  <style name="xml:attribute-name"          foreground="light_gray"/>
+  <style name="xml:element-name"            foreground="teal_blue"/>
+  <style name="xml:entity"                  foreground="neon_yellow"/>
+  <style name="xml:processing-instruction"  bold="true"/>
+
+</style-scheme>
